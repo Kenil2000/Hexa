@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexa</title>
+    <link rel="stylesheet" href="../assets/css/home.css" type="text/css">
+    <link rel="stylesheet" href="../assets/font/opansans/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <!-- NAVBAR -->
+
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar-content d-flex">
+                    <a class="brand-logo" href="../views/home.html">HEXA</a>
+                    <div class="navbar-tool">
+                        <ul class="d-flex">
+                            <li>
+                                <a href="../views/home.html">HOME</a>
+                            </li>
+                            <li>
+                                <a href="../views/about.html">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="../views/project.html">PROJECT</a>
+                            </li>
+                            <li>
+                                <a href="../views/services.html">
+                                    SERVICES
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../views/blog.html">BLOG</a>
+                            </li>
+                            <li>
+                                <a href="../views/contect.html">CONTECT</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="navbar-btn" href="../views/home.html">COLORLIB</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- MAIN -->
+
+    <main>
+
+        <!-- SLIDER -->
+
+        <div class="owl-carousel ">
+            <div class="item">
+
+                <div class="slider">
+                    <div class="slider-ovarlay">
+                        <div class="container">
+                            <div class="slider-content">
+                                <h1>CREATIVE DESIGN</h1>
+                                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit,
+                                    necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</P>
+                                <div class="slider-btn">
+                                    <a class="get-started" href="../views/home.html">GET STARTED</a>
+                                    <a class="download" href="../views/home.html">DOWNLOAD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="slider2">
+                    <div class="slider-ovarlay">
+                        <div class="container">
+                            <div class="slider-content">
+                                <h1>MODERN DESIGN</h1>
+                                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit,
+                                    necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</P>
+                                <div class="slider-btn">
+                                    <a class="get-started" href="../views/home.html">GET STARTED</a>
+                                    <a class="download" href="../views/home.html">DOWNLOAD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- MEDIA-BLOCK -->
+
+        <div class="media-block">
+            <div class="container">
+                <div class="row">
+
+                    <div class="w-3">
+                        <div class="media-bolck-content">
+                            <i class="fa-regular fa-bell"></i>
+                            <h3>Modern Design</h3>
+                            <p>
+                                Even the all-powerful Pointing has no control
+                                <span>about the blind texts it is an almost</span>
+                                <span>unorthographic.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="w-3">
+                        <div class="media-bolck-content">
+                            <i class="fa-regular fa-bell"></i>
+                            <h3>Modern Design</h3>
+                            <p>
+                                Even the all-powerful Pointing has no control
+                                <span>about the blind texts it is an almost</span>
+                                <span>unorthographic.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-3">
+                        <div class="media-bolck-content">
+                            <i class="fa-regular fa-bell"></i>
+                            <h3>Modern Design</h3>
+                            <p>
+                                Even the all-powerful Pointing has no control
+                                <span>about the blind texts it is an almost</span>
+                                <span>unorthographic.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: false,
+            drag: true,
+            dot: false,
+            prevArrow: '<div class="slick-arrow prev"><span class="fa-solid fa-angle-left"></span></div>',
+            nextArrow: '<div class="slick-arrow prev"><span class="fa-solid fa-angle-right"></span></div>',
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                },
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
