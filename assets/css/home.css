@@ -479,8 +479,12 @@ a {
 
 /* BLOG */
 
+.blog {
+    margin-bottom: 70px;
+}
+
 .blog-text {
-    margin: 100px 0;
+    margin: 100px 0 50px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -550,13 +554,190 @@ a {
 .blog-1-btn {
     color: #ffffff;
     background-color: var(--orange);
-    padding: 8px 12px;
+    padding: 5px 8px;
     border-radius: 3px;
     border: none;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 2.4px;
     line-height: 18px;
 }
 
+.blog-2a {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
 
+.blog-2a-body span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #b3b3b3;
+    letter-spacing: 2.8px;
+    line-height: 1.8;
+}
+
+.blog-2a-body h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--orange);
+    margin: 12px 0;
+}
+
+.blog-2a-body a {
+    color: var(--orange);
+}
+
+.blog-2a-body h3:hover a {
+    color: #9d2d05;
+    transition: 0.4s;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #262626;
+    padding: 65px 0;
+}
+
+.footer-about {
+    margin-bottom: 48px;
+    padding: 0 15px;
+}
+
+.footer-about h3 {
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.footer-about p {
+    font-size: 13px;
+    margin-bottom: 35px;
+    line-height: 23.4px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+}
+
+.footer-about-sm {
+    border-radius: 50%;
+    margin: 0 5px 5px 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-about-sm a {
+    font-size: 13px;
+    color: var(--orange);
+    padding-top: 2px;
+}
+
+.footer-about-link .footer-about-sm:hover {
+    background-color: var(--white);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.footer-about-link .footer-about-sm:hover a {
+    color: var(--black);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.footer-contact {
+    margin-bottom: 48px;
+    padding: 0 15px 0 50px;
+}
+
+.footer-contact h3 {
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.footer-contact ul{
+    margin-bottom: 10px;
+}
+
+.d-blok {
+    font-size: 13px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+}
+
+.text-white {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.footer-quick-link{
+    margin: 0 60px;
+}
+
+.footer-quick-link h3 {
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.footer-quick-link ul li {
+    margin-bottom: 15px;
+}
+
+.footer-quick-link ul li a{
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--orange);
+    font-weight: 400;
+}
+
+.footer-quick-link ul li:hover a {
+    color: var(--white);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/* COPYRIGHT */
+
+.copyright p {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.4px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.copyright p a {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--orange);
+    font-weight: 400; 
+}
+
+.copyright p a:hover{
+    color: var(--white);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: 0.4s;
+    cursor: pointer;
+}

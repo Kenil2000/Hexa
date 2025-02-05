@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="../assets/font/opansans/stylesheet.css" type="text/css">
     <link rel="stylesheet" href="../assets/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- <link rel="stylesheet" href="../assets/css/animate.css"> -->
 </head>
 
 <body>
@@ -66,10 +67,10 @@
         <div class="owl-carousel">
             <div class="item">
 
-                <div class="slider">
+                <div class="slider animate__animated animate__fadeIn">
                     <div class="slider-ovarlay">
                         <div class="container">
-                            <div class="slider-content">
+                            <div class="slider-content animate__animated animate__fadeInUp animate__delay-0.5s">
                                 <h1>CREATIVE DESIGN</h1>
                                 <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit,
                                     necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</P>
@@ -106,7 +107,7 @@
 
         <!-- MEDIA-BLOCK -->
 
-        <section class="media-block">
+        <section class="media-block wow animate__fadeInUp" data-wow-duration="1s">
             <div class="container">
                 <div class="row">
 
@@ -152,7 +153,7 @@
 
         <!-- INFRASTRUCTURE -->
 
-        <section class="infrastructure">
+        <section class="infrastructure wow animate__fadeInUp" data-wow-duration="1s">
             <div class="container">
                 <div class="row">
                     <div class="infrastructure-content d-flex">
@@ -177,7 +178,7 @@
 
         <!-- COLLABORATE -->
 
-        <section class="collaborate">
+        <section class="collaborate wow animate__fadeInUp" data-wow-duration="1s">
             <div class="container">
                 <div class="row">
                     <div class="collaborate-content d-flex">
@@ -202,7 +203,7 @@
 
         <!-- PROJECT-TEXT -->
 
-        <section class="project-text">
+        <section class="project-text wow animate__fadeInUp" data-wow-duration="1s">
             <div class="container">
                 <h2>Projects</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus,
@@ -212,7 +213,7 @@
 
         <!-- PROJECT -->
 
-        <section class="project">
+        <section class="project wow animate__fadeInUp" data-wow-duration="1s">
 
             <div class="row">
                 <div class="w-3">
@@ -313,109 +314,134 @@
                 </div>
 
                 <div class="testimonial-slider">
-                    <div class="owl-carousel2">
-                        
-                        <div class="item">
-                            <div class="w-3">
-                                <div class="testimonial-content">
-                                    <div class="testimonial-profile d-flex">
-                                        <div class="profile-photo">
-                                            <img src="../assets/Img/testimonial-1.jpg" alt="CEO" title="CEO-cofounder"
-                                                height="60px" width="60px">
-                                        </div>
-                                        <div class="profile-name">
-                                            <h2>John Smith</h2>
-                                            <span>CEO, Co-Founder</span>
-                                        </div>
-                                    </div>
-                                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque
-                                        dolore
-                                        esse
-                                        veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad
-                                        itaque
-                                        inventore accusantium tempore dolores sunt."</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="owl-carousel2 owl-loaded owl-drag">
+                        <!-- <div class="d-flex"> -->
 
-                        <div class="item">
-                            <div class="w-3">
-                                <div class="testimonial-content">
-                                    <div class="testimonial-profile d-flex">
-                                        <div class="profile-photo">
-                                            <img src="../assets/Img/testimonial-2.jpg" alt="CEO" title="CEO-cofounder"
-                                                height="60px" width="60px">
-                                        </div>
-                                        <div class="profile-name">
-                                            <h2>Joshua Darren</h2>
-                                            <span>CEO, Co-Founder</span>
-                                        </div>
-                                    </div>
-                                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque
-                                        dolore
-                                        esse
-                                        veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad
-                                        itaque
-                                        inventore accusantium tempore dolores sunt."</p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="item">
-                            <div class="w-3">
-                                <div class="testimonial-content">
-                                    <div class="testimonial-profile d-flex">
-                                        <div class="profile-photo">
-                                            <img src="../assets/Img/testimonial-1.jpg" alt="CEO" title="CEO-cofounder"
-                                                height="60px" width="60px">
-                                        </div>
-                                        <div class="profile-name">
-                                            <h2>John Smith</h2>
-                                            <span>CEO, Co-Founder</span>
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage"
+                                style="transform: translate3d(0px, 0px, 0px); transition: all; width: 1500px; padding-left: 10px; padding-right: 10px;">
+                                <div class="owl-item active" style="width: 350px; margin-right: 20px;">
+                                    <div class="item">
+                                        <div class="w-3">
+                                            <div class="testimonial-content">
+                                                <div class="testimonial-profile d-flex">
+                                                    <div class="profile-photo">
+                                                        <img src="../assets/Img/testimonial-1.jpg" alt="CEO"
+                                                            title="CEO-cofounder" height="60px" width="60px">
+                                                    </div>
+                                                    <div class="profile-name">
+                                                        <h2>John Smith</h2>
+                                                        <span>CEO, Co-Founder</span>
+                                                    </div>
+                                                </div>
+                                                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                                    aliquid. Atque
+                                                    dolore
+                                                    esse
+                                                    veritatis iusto eaque perferendis non dolorem fugiat voluptatibus
+                                                    vitae
+                                                    error ad
+                                                    itaque
+                                                    inventore accusantium tempore dolores sunt."</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque
-                                        dolore
-                                        esse
-                                        veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad
-                                        itaque
-                                        inventore accusantium tempore dolores sunt."</p>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="w-3">
-                                <div class="testimonial-content">
-                                    <div class="testimonial-profile d-flex">
-                                        <div class="profile-photo">
-                                            <img src="../assets/Img/testimonial-1.jpg" alt="CEO" title="CEO-cofounder"
-                                                height="60px" width="60px">
-                                        </div>
-                                        <div class="profile-name">
-                                            <h2>John Smith</h2>
-                                            <span>CEO, Co-Founder</span>
+                                <div class="owl-item active" style="width: 350px; margin-right: 20px;">
+                                    <div class="item">
+                                        <div class="w-3">
+                                            <div class="testimonial-content">
+                                                <div class="testimonial-profile d-flex">
+                                                    <div class="profile-photo">
+                                                        <img src="../assets/Img/testimonial-1.jpg" alt="CEO"
+                                                            title="CEO-cofounder" height="60px" width="60px">
+                                                    </div>
+                                                    <div class="profile-name">
+                                                        <h2>John Smith</h2>
+                                                        <span>CEO, Co-Founder</span>
+                                                    </div>
+                                                </div>
+                                                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                                    aliquid. Atque
+                                                    dolore
+                                                    esse
+                                                    veritatis iusto eaque perferendis non dolorem fugiat voluptatibus
+                                                    vitae
+                                                    error ad
+                                                    itaque
+                                                    inventore accusantium tempore dolores sunt."</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque
-                                        dolore
-                                        esse
-                                        veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad
-                                        itaque
-                                        inventore accusantium tempore dolores sunt."</p>
+                                </div>
+                                <div class="owl-item active" style="width: 350px; margin-right: 20px;">
+                                    <div class="item">
+                                        <div class="w-3">
+                                            <div class="testimonial-content">
+                                                <div class="testimonial-profile d-flex">
+                                                    <div class="profile-photo">
+                                                        <img src="../assets/Img/testimonial-1.jpg" alt="CEO"
+                                                            title="CEO-cofounder" height="60px" width="60px">
+                                                    </div>
+                                                    <div class="profile-name">
+                                                        <h2>John Smith</h2>
+                                                        <span>CEO, Co-Founder</span>
+                                                    </div>
+                                                </div>
+                                                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                                    aliquid. Atque
+                                                    dolore
+                                                    esse
+                                                    veritatis iusto eaque perferendis non dolorem fugiat voluptatibus
+                                                    vitae
+                                                    error ad
+                                                    itaque
+                                                    inventore accusantium tempore dolores sunt."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 350px; margin-right: 20px;">
+                                    <div class="item">
+                                        <div class="w-3">
+                                            <div class="testimonial-content">
+                                                <div class="testimonial-profile d-flex">
+                                                    <div class="profile-photo">
+                                                        <img src="../assets/Img/testimonial-1.jpg" alt="CEO"
+                                                            title="CEO-cofounder" height="60px" width="60px">
+                                                    </div>
+                                                    <div class="profile-name">
+                                                        <h2>John Smith</h2>
+                                                        <span>CEO, Co-Founder</span>
+                                                    </div>
+                                                </div>
+                                                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                                    aliquid. Atque
+                                                    dolore
+                                                    esse
+                                                    veritatis iusto eaque perferendis non dolorem fugiat voluptatibus
+                                                    vitae
+                                                    error ad
+                                                    itaque
+                                                    inventore accusantium tempore dolores sunt."</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                     </div>
                 </div>
+            </div>
 
             </div>
         </section>
 
         <!-- BLOG -->
 
-        <section class="blog">
+        <section class="blog wow animate__fadeInUp" data-wow-duration="1s">
             <div class="container">
 
                 <div class="blog-text">
@@ -424,7 +450,7 @@
                         soluta sit quam minima expedita atque corrupti reiciendis.</p>
                 </div>
 
-                <div class="blog-post">
+                <div class="blog-post wow animate__fadeInUp" data-wow-duration="1s">
                     <div class="row">
 
                         <div class="w-2">
@@ -465,15 +491,17 @@
 
                         <div class="w-2">
                             <div class="blog-2">
-                                <div class="blog-2 1 d-flex">
+
+                                <div class="blog-2a d-flex wow animate__fadeInUp" data-wow-duration="1s">
                                     <div class="w-2">
                                         <a href="../views/home.html">
                                             <img src="../assets/Img/blog-2.jpg" alt="blog-2.1" title="blog-2.1"
                                                 width="216px" height="144px">
                                         </a>
                                     </div>
+
                                     <div class="w-2">
-                                        <div class="blog-2.1-body">
+                                        <div class="blog-2a-body">
                                             <span>
                                                 Feb 26th, 2018
                                             </span>
@@ -487,7 +515,35 @@
                                             </button>
                                         </div>
                                     </div>
+
                                 </div>
+
+                                <div class="blog-2a d-flex">
+                                    <div class="w-2">
+                                        <a href="../views/home.html">
+                                            <img src="../assets/Img/blog-3.jpg" alt="blog-2.1" title="blog-2.1"
+                                                width="216px" height="144px">
+                                        </a>
+                                    </div>
+
+                                    <div class="w-2">
+                                        <div class="blog-2a-body">
+                                            <span>
+                                                Feb 26th, 2018
+                                            </span>
+                                            <h3>
+                                                <a href="../views/home.html">
+                                                    Free Website Template at Free-Template.co
+                                                </a>
+                                            </h3>
+                                            <button class="blog-1-btn" href="../views/home.html">
+                                                READ MORE
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
                         </div>
 
@@ -503,10 +559,129 @@
 
     <footer>
 
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="w-3">
+                        <div class="footer-about">
+                            <h3>
+                                About The Hexa Template
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor
+                                blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.
+                            </p>
+                            <div class="footer-about-link d-flex">
+                                <div class="footer-about-sm">
+                                    <a href="../views/home.html">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="footer-about-sm">
+                                    <a href="../views/home.html">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="footer-about-sm">
+                                    <a href="../views/home.html">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="footer-about-sm">
+                                    <a href="../views/home.html">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-3">
+                        <div class="footer-contact">
+                            <h3>
+                                Contact Info
+                            </h3>
+                            <ul>
+                                <li class="d-blok">
+                                    Address:
+                                </li>
+                                <li class="text-white">
+                                    34 Street Name, City Name Here, United States
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="d-blok">
+                                    Telephone:
+                                </li>
+                                <li class="text-white">
+                                    +1 242 4942 290
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="d-blok">
+                                    Email:
+                                </li>
+                                <li class="text-white">
+                                    info@yourdomain.com
+                                </li>
+                            </ul>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="w-3">
+                        <div class="footer-quick-link">
+                            <h3>
+                                Quick Links
+                            </h3>
+                            <ul>
+                                <li>
+                                    <a href="../views/home.html">
+                                        About
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../views/home.html">
+                                        Terms of Use
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../views/home.html">
+                                        Disclaimers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../views/home.html">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="copyright">
+            <div class="container">
+                <p>
+                    Copyright ©
+                    <script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with
+                    <i class="fa-solid fa-heart"></i>
+                    by
+                    <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                </p>
+            </div>
+        </section>
+
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
     <script>
         var owl = $('.owl-carousel');
         owl.owlCarousel({
@@ -535,19 +710,23 @@
 
 
     </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
-        var owl = $('.owl-carousel2');
+        new WOW().init();
+    </script>
+
+    <script>
+        var owl = $('.owl-carousel');
         owl.owlCarousel({
             items: 4,
             loop: true,
-            mouseDrag: true,
             margin: 10,
             autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: false,
             drag: true,
-            dots: true,
-            // prevArrow: '<div class="slick-arrow prev"><span class="fa-solid fa-angle-left"></span></div>',
-            // nextArrow: '<div class="slick-arrow prev"><span class="fa-solid fa-angle-right"></span></div>',
-            responsiveClass: true,
+            dots: false,
             responsive: {
                 0: {
                     items: 3,
