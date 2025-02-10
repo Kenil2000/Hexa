@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="../assets/css/home.css" type="text/css">
     <link rel="stylesheet" href="../assets/font/opansans/stylesheet.css" type="text/css">
     <link rel="stylesheet" href="../assets/css/all.min.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        type="text/css">
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        type="text/css" />
 </head>
 
 <body>
@@ -42,6 +45,12 @@
                                     SERVICES
                                     <i class="fa-solid fa-caret-down"></i>
                                 </a>
+                                <div class="services-dropdown">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    <a href="../views/services.html">Architectural Design</a>
+                                    <a href="../views/services.html">Interior</a>
+                                    <a href="../views/services.html">Building</a>
+                                </div>
                             </li>
                             <li>
                                 <a href="../views/blog.html">BLOG</a>
@@ -343,11 +352,11 @@
                                 <div class="testimonial-content">
                                     <div class="testimonial-profile d-flex">
                                         <div class="profile-photo">
-                                            <img src="../assets/Img/testimonial-1.jpg" alt="CEO" title="CEO-cofounder"
+                                            <img src="../assets/Img/testimonial-2.jpg" alt="CEO" title="CEO-cofounder"
                                                 height="60px" width="60px">
                                         </div>
                                         <div class="profile-name">
-                                            <h2>John Smith</h2>
+                                            <h2>Joshua Darren</h2>
                                             <span>CEO, Co-Founder</span>
                                         </div>
                                     </div>
@@ -649,11 +658,13 @@
 
     </footer>
 
+    <!-- JAVASCRIPT -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script>
-        var owl = $('#scarousel1');
+        var owl = $('#carousel1');
         owl.owlCarousel({
             items: 2,
             loop: true,
@@ -663,8 +674,6 @@
             autoplayHoverPause: false,
             drag: true,
             dots: false,
-            prevArrow: '<div class="slick-arrow prev"><span class="fa-solid fa-angle-left"></span></div>',
-            nextArrow: '<div class="slick-arrow prev"><span class="fa-solid fa-angle-right"></span></div>',
             responsive: {
                 0: {
                     items: 1
@@ -696,6 +705,10 @@
             autoplayHoverPause: false,
             drag: true,
             dots: false,
+            navText: [
+                '<div class="slick-arrow prev2 clicked"><span class="fa-solid fa-angle-left"></span></div>',
+                '<div class="slick-arrow next2 clicked"><span class="fa-solid fa-angle-right"></span></div>'
+            ],
             responsive: {
                 0: {
                     items: 3,
@@ -713,8 +726,9 @@
             }
         });
 
-
     </script>
+
+
 </body>
 
 </html>

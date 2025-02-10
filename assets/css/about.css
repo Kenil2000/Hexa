@@ -1,0 +1,242 @@
+html {
+    font-family: "Open Sans", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #6c757d;
+    --bggray: #f8f9fa;
+    --orange: #e74208;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-2 {
+    width: 50%;
+}
+
+.w-3 {
+    width: 33.33%;
+}
+
+.w-4 {
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+/* NAVBAR */
+
+.navbar-content {
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    margin: 0 auto;
+}
+
+.navbar .brand-logo {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 5px 0;
+    margin-right: 16px;
+    color: var(--white);
+}
+
+.navbar-tool ul {
+    padding-left: 48px;
+    padding-top: 7px;
+}
+
+.navbar-tool ul li a {
+    padding: 27px 8px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.navbar-tool ul li:nth-child(4){
+    position: relative;
+}
+
+.navbar-tool ul li:nth-child(2) a {
+    color: var(--white);
+}
+
+.navbar-btn {
+    color: var(--white);
+    font-size: 13px;
+    font-weight: 400;
+    padding: 12px 18px;
+    background-color: #e74208;
+    border-radius: 4px;
+    letter-spacing: 2.5px;
+    margin-left: 428px;
+}
+
+.services-dropdown {
+    display: none !important;
+    background-color: var(--white);
+    display: flex ;
+    flex-direction: column;
+    min-width: 200px;
+    padding: 12px 0 5px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    border-radius: 4px;
+}
+
+.navbar-tool ul li:nth-child(4):hover .services-dropdown {
+    display: flex !important;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.services-dropdown i {
+    position: absolute;
+    top: -12px;
+    left: 18px;
+    font-size: 22px;
+    color: var(--white);
+}
+
+.services-dropdown a {
+    color: #212529!important;
+    padding: 10px 15px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0 !important;
+}
+
+.services-dropdown a:hover {
+    color: var(--white);
+    background-color: var(--orange);
+    transition: 0.4s;
+    cursor: pointer;
+} 
+
+/* MAIN */
+
+/* SLIDER */
+
+.slider {
+    background-image: url(../Img/banner.jpg);
+    background-position: center;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.slider2 {
+    background-image: url(../Img/banner.jpg);
+    background-position: center;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.slider-ovarlay {
+    background-color: rgb(0, 0, 0, 0.2);
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.slider-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 210px;
+}
+
+.slider-content h1 {
+    color: var(--white);
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.slider-content p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    color: var(--white);
+    width: 840px;
+    padding: 0 48px 60px 60px;
+    text-align: center;
+}
+
+.slider-btn .get-started {
+    padding: 16px;
+    border: 2px solid var(--white);
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2.6px;
+    color: var(--white);
+}
+
+.slider-btn .get-started:hover {
+    background-color: var(--white);
+    color: var(--black);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.slider-btn .download {
+    padding: 16px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2.6px;
+    color: var(--white);
+}
+
+/* OUR-MISSION */
+
